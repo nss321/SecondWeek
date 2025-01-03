@@ -18,6 +18,7 @@ class Monster {
     
     func initializer(a: String, b: Int, c: Int, d: Int) {
         print(#function)
+        print(#function)
         self.clothes = a
         self.speed = b
         self.power = c

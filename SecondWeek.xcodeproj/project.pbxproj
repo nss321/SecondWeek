@@ -61,7 +61,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11070C422D2373180092B920 /* 2nd */ = {
+		11070C422D2373180092B920 /* 1231 */ = {
 			isa = PBXGroup;
 			children = (
 				11070C452D2373370092B920 /* Practice.storyboard */,
@@ -70,7 +70,7 @@
 				11070C4B2D238DEE0092B920 /* ShowViewController.swift */,
 				11070C4D2D2396D70092B920 /* SecondViewController.swift */,
 			);
-			path = 2nd;
+			path = 1231;
 			sourceTree = "<group>";
 		};
 		1159BA502D2680EA004DF944 /* Extension */ = {
@@ -102,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				1159BA502D2680EA004DF944 /* Extension */,
+				11BD1EA72D27B7D100352CDD /* 1230 */,
+				11070C422D2373180092B920 /* 1231 */,
 				11E502F72D2649640044221B /* 0102 */,
-				11070C422D2373180092B920 /* 2nd */,
 				11713AC42D2257A9003186FE /* AppDelegate.swift */,
 				11713AC62D2257A9003186FE /* SceneDelegate.swift */,
 				11713AC82D2257A9003186FE /* ViewController.swift */,
@@ -111,9 +112,16 @@
 				11713ACD2D2257AA003186FE /* Assets.xcassets */,
 				11713ACF2D2257AA003186FE /* LaunchScreen.storyboard */,
 				11713AD22D2257AA003186FE /* Info.plist */,
-				11713AD82D22718F003186FE /* NumberViewController.swift */,
 			);
 			path = SecondWeek;
+			sourceTree = "<group>";
+		};
+		11BD1EA72D27B7D100352CDD /* 1230 */ = {
+			isa = PBXGroup;
+			children = (
+				11713AD82D22718F003186FE /* NumberViewController.swift */,
+			);
+			path = 1230;
 			sourceTree = "<group>";
 		};
 		11E502F72D2649640044221B /* 0102 */ = {
