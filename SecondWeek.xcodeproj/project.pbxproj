@@ -25,6 +25,7 @@
 		11713AD92D22718F003186FE /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11713AD82D22718F003186FE /* NumberViewController.swift */; };
 		1171DAF12D27C2C3009296F6 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DAF02D27C2C3009296F6 /* UserTableViewController.swift */; };
 		1171DAF32D27C392009296F6 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171DAF22D27C392009296F6 /* User.storyboard */; };
+		1171DAF52D27C75F009296F6 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DAF42D27C75F009296F6 /* UserTableViewCell.swift */; };
 		11BD1EA32D27AF1A00352CDD /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 11BD1EA22D27AF1A00352CDD /* IQKeyboardManagerSwift */; };
 		11BD1EA62D27B07600352CDD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 11BD1EA52D27B07600352CDD /* Kingfisher */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		11713AD82D22718F003186FE /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
 		1171DAF02D27C2C3009296F6 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		1171DAF22D27C392009296F6 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		1171DAF42D27C75F009296F6 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			children = (
 				1171DAF02D27C2C3009296F6 /* UserTableViewController.swift */,
 				1171DAF22D27C392009296F6 /* User.storyboard */,
+				1171DAF42D27C75F009296F6 /* UserTableViewCell.swift */,
 			);
 			path = 0103;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				11070C4E2D2396D80092B920 /* SecondViewController.swift in Sources */,
 				11713AC92D2257A9003186FE /* ViewController.swift in Sources */,
+				1171DAF52D27C75F009296F6 /* UserTableViewCell.swift in Sources */,
 				1171DAF12D27C2C3009296F6 /* UserTableViewController.swift in Sources */,
 				1159BA542D26813D004DF944 /* UIViewController+.swift in Sources */,
 				11070C4C2D238DEE0092B920 /* ShowViewController.swift in Sources */,
