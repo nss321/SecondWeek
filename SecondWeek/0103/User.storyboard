@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23068.1"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -46,18 +47,33 @@
                                                 </label>
                                             </subviews>
                                         </stackView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YxX-j4-geb">
+                                            <rect key="frame" x="36" y="19" width="40" height="40"/>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="40" id="WcJ-d5-Wx8"/>
+                                                <constraint firstAttribute="width" constant="40" id="Yrp-ZN-4CS"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain">
+                                                <imageReference key="image" image="star.fill" catalog="system" renderingMode="original"/>
+                                            </buttonConfiguration>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="30O-kp-ocE" firstAttribute="centerY" secondItem="uKj-bU-X3G" secondAttribute="centerY" id="99C-P5-1sS"/>
                                         <constraint firstItem="wHJ-kr-M0N" firstAttribute="centerY" secondItem="uKj-bU-X3G" secondAttribute="centerY" id="Jje-1d-k0j"/>
+                                        <constraint firstItem="YxX-j4-geb" firstAttribute="top" secondItem="wHJ-kr-M0N" secondAttribute="top" id="S4j-fX-qye"/>
                                         <constraint firstAttribute="trailing" secondItem="30O-kp-ocE" secondAttribute="trailing" constant="16" id="bSC-9F-8Wg"/>
                                         <constraint firstItem="wHJ-kr-M0N" firstAttribute="leading" secondItem="uKj-bU-X3G" secondAttribute="leadingMargin" constant="16" id="bvy-o0-tqw"/>
+                                        <constraint firstItem="YxX-j4-geb" firstAttribute="leading" secondItem="wHJ-kr-M0N" secondAttribute="leading" id="e3f-zl-nTe"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="wHJ-kr-M0N" secondAttribute="bottom" constant="8" id="kPP-Nm-wqu"/>
                                         <constraint firstItem="wHJ-kr-M0N" firstAttribute="top" secondItem="uKj-bU-X3G" secondAttribute="topMargin" constant="8" id="mCf-z5-bwK"/>
                                         <constraint firstItem="30O-kp-ocE" firstAttribute="leading" secondItem="wHJ-kr-M0N" secondAttribute="trailing" constant="16" id="nKv-n5-cWo"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="likeButton" destination="YxX-j4-geb" id="0Kd-Y1-LB9"/>
                                     <outlet property="messageLabel" destination="ms9-C8-Kwe" id="3wh-Nb-4h2"/>
                                     <outlet property="nameLabel" destination="jzN-py-alo" id="yPQ-SP-IEg"/>
                                     <outlet property="profileImageView" destination="wHJ-kr-M0N" id="c61-zq-JdX"/>
@@ -76,6 +92,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -26,6 +26,7 @@
 		1171DAF12D27C2C3009296F6 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DAF02D27C2C3009296F6 /* UserTableViewController.swift */; };
 		1171DAF32D27C392009296F6 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171DAF22D27C392009296F6 /* User.storyboard */; };
 		1171DAF52D27C75F009296F6 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DAF42D27C75F009296F6 /* UserTableViewCell.swift */; };
+		1171DAF72D27D1B6009296F6 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DAF62D27D1B5009296F6 /* Friend.swift */; };
 		11BD1EA32D27AF1A00352CDD /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 11BD1EA22D27AF1A00352CDD /* IQKeyboardManagerSwift */; };
 		11BD1EA62D27B07600352CDD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 11BD1EA52D27B07600352CDD /* Kingfisher */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		1171DAF02D27C2C3009296F6 /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		1171DAF22D27C392009296F6 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		1171DAF42D27C75F009296F6 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		1171DAF62D27D1B5009296F6 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		1171DAEF2D27C2B1009296F6 /* 0103 */ = {
 			isa = PBXGroup;
 			children = (
+				1171DAF62D27D1B5009296F6 /* Friend.swift */,
 				1171DAF02D27C2C3009296F6 /* UserTableViewController.swift */,
 				1171DAF22D27C392009296F6 /* User.storyboard */,
 				1171DAF42D27C75F009296F6 /* UserTableViewCell.swift */,
@@ -243,6 +246,7 @@
 				11070C482D2389340092B920 /* PracticeViewController.swift in Sources */,
 				11070C4A2D2389420092B920 /* ModalViewController.swift in Sources */,
 				1159BA4E2D26546F004DF944 /* BasicTableViewController.swift in Sources */,
+				1171DAF72D27D1B6009296F6 /* Friend.swift in Sources */,
 				11713AC72D2257A9003186FE /* SceneDelegate.swift in Sources */,
 				1159BA582D26870D004DF944 /* ClassStruct.swift in Sources */,
 			);
