@@ -14,14 +14,15 @@ class UserTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(#function)
     }
 
     @objc func likeButtonTapped(_ sender: UIButton) {
         friends[sender.tag].like.toggle()
         print(#function, sender.tag)
         print(friends[sender.tag].like)
-        tableView.reloadData()
+//        tableView.reloadData()
+        tableView.reloadRows(at: [IndexPath(row: sender.tag, section: 0)], with: .automatic)
         
     }
     
@@ -33,29 +34,10 @@ class UserTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserTableViewCell", for: indexPath) as! UserTableViewCell
         let row = friends[indexPath.row]
         
-        let image = row.profile_image
-        
-        if let image {
-            let url = URL(string: image)
-            cell.profileImageView.kf.setImage(with: url)
-        } else {
-            cell.profileImageView.image = UIImage(systemName: "person")
-        }
-        
-        let like = row.like ? "star" : "star.fill"
-        cell.likeButton.setImage(UIImage(systemName: like), for: .normal)
-        
+        cell.config(row: row)
         cell.likeButton.tag = indexPath.row
         cell.likeButton.addTarget(self, action: #selector(likeButtonTapped), for: .touchUpInside)
         
-//        cell.likeButton.setImage(row.like ? UIImage(systemName: "star") : UIImage(systemName: "star.fill"), for: .normal)
-        
-        cell.nameLabel.text = row.name
-        cell.messageLabel.text = row.message ?? ""
-        
-        cell.nameLabel.font = .boldSystemFont(ofSize: 15)
-        cell.messageLabel.font = .systemFont(ofSize: 12)
-        cell.profileImageView.backgroundColor = .cyan
         
         return cell
     }
@@ -66,3 +48,4 @@ class UserTableViewController: UITableViewController {
     
 
 }
+
