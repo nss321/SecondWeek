@@ -8,22 +8,23 @@
 import UIKit
 
 class YellowViewController: UIViewController {
-
+    
+    /// 1.Pass Data
+    var contens: String?
+    
+    @IBOutlet var nameLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        navigationItem.title = "엘로우"
+        self.nameLabel.text = contens
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func popButtonTapped(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
     }
-    */
-
+    @IBAction func dismissButton(_ sender: UIButton) {
+        self.dismiss(animated: true)
+    }
 }

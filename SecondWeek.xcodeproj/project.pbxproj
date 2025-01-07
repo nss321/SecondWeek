@@ -18,6 +18,7 @@
 		1159BA582D26870D004DF944 /* ClassStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159BA572D26870D004DF944 /* ClassStruct.swift */; };
 		116FDF592D2CAA8E008FDB88 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FDF582D2CAA8E008FDB88 /* YellowViewController.swift */; };
 		116FDF5B2D2CAA9C008FDB88 /* IndigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FDF5A2D2CAA9C008FDB88 /* IndigoViewController.swift */; };
+		116FDF5D2D2CC621008FDB88 /* TenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116FDF5C2D2CC621008FDB88 /* TenStoryboard.storyboard */; };
 		11713AC52D2257A9003186FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11713AC42D2257A9003186FE /* AppDelegate.swift */; };
 		11713AC72D2257A9003186FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11713AC62D2257A9003186FE /* SceneDelegate.swift */; };
 		11713AC92D2257A9003186FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11713AC82D2257A9003186FE /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		1159BA572D26870D004DF944 /* ClassStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassStruct.swift; sourceTree = "<group>"; };
 		116FDF582D2CAA8E008FDB88 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		116FDF5A2D2CAA9C008FDB88 /* IndigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndigoViewController.swift; sourceTree = "<group>"; };
+		116FDF5C2D2CC621008FDB88 /* TenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TenStoryboard.storyboard; sourceTree = "<group>"; };
 		11713AC12D2257A9003186FE /* SecondWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11713AC42D2257A9003186FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11713AC62D2257A9003186FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				116FDF582D2CAA8E008FDB88 /* YellowViewController.swift */,
 				116FDF5A2D2CAA9C008FDB88 /* IndigoViewController.swift */,
+				116FDF5C2D2CC621008FDB88 /* TenStoryboard.storyboard */,
 			);
 			path = 0107;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				1171DAF32D27C392009296F6 /* User.storyboard in Resources */,
 				11070C462D2373370092B920 /* Practice.storyboard in Resources */,
 				11713AD12D2257AA003186FE /* Base in Resources */,
+				116FDF5D2D2CC621008FDB88 /* TenStoryboard.storyboard in Resources */,
 				119569B02D2BA2DF009976A2 /* NoProfileTableViewCell.xib in Resources */,
 				11713ACC2D2257A9003186FE /* Base in Resources */,
 			);
