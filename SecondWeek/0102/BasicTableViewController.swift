@@ -9,7 +9,10 @@ import UIKit
 
 class BasicTableViewController: UITableViewController {
     
-    var list = ["프로젝트", "쇼핑", "메인 업무", "싹싹 과제"] {
+    var list = [
+        "프로젝트", "쇼핑", "메인 업무", "싹싹 과제", "ㅁㄴㄹㄴㅇㅁ러ㅣㄷ루이누리Fnfkdfk d",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    ] {
         didSet {
             tableView.reloadData()
         }
@@ -19,7 +22,8 @@ class BasicTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.rowHeight = 80 // 모든 셀의 높이가 같으면 프로퍼티로 높이를 줘도 됨.
+//        tableView.rowHeight = 80 // 모든 셀의 높이가 같으면 프로퍼티로 높이를 줘도 됨.
+        tableView.rowHeight = UITableView.automaticDimension // 모든 셀의 높이가 같으면 프로퍼티로 높이를 줘도 됨.
         var age = 16
         var monster = Monster() // 인스턴스
         monster.clothes
@@ -62,6 +66,8 @@ class BasicTableViewController: UITableViewController {
             return UITableViewCell()
         }
         cell.textLabel?.text = list[indexPath.row]
+        cell.textLabel?.numberOfLines = 0
+        
         cell.detailTextLabel?.setPrimaryLabel("tttt")
 //        cell.detailTextLabel?.text = detailList[indexPath.row]
         

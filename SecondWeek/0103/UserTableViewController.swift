@@ -14,7 +14,14 @@ class UserTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(#function)
+//        print(#function)
+//        let nib = UINib(nibName: "NoProfileTableViewCell", bundle: nil)
+//        tableView.register(nib, forCellReuseIdentifier: "NoProfileTableViewCell")
+    }
+    
+    override class func awakeFromNib() {
+        super.awakeFromNib()
+//        print(self, #function)
     }
 
     @objc func likeButtonTapped(_ sender: UIButton) {
@@ -31,7 +38,8 @@ class UserTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "UserTableViewCell", for: indexPath) as! UserTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: UserTableViewCell.identifier, for: indexPath) as! UserTableViewCell
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "NoProfileTableViewCell", for: indexPath) as! NoProfileTableViewCell
         let row = friends[indexPath.row]
         
         cell.config(row: row)
@@ -39,11 +47,13 @@ class UserTableViewController: UITableViewController {
         cell.likeButton.addTarget(self, action: #selector(likeButtonTapped), for: .touchUpInside)
         
         
+        
         return cell
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        100
+//        100
+        UITableView.automaticDimension
     }
     
 

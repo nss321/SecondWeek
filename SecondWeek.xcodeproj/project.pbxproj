@@ -27,6 +27,9 @@
 		1171DAF32D27C392009296F6 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1171DAF22D27C392009296F6 /* User.storyboard */; };
 		1171DAF52D27C75F009296F6 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DAF42D27C75F009296F6 /* UserTableViewCell.swift */; };
 		1171DAF72D27D1B6009296F6 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1171DAF62D27D1B5009296F6 /* Friend.swift */; };
+		119569B02D2BA2DF009976A2 /* NoProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119569AF2D2BA2DF009976A2 /* NoProfileTableViewCell.xib */; };
+		119569B12D2BA2DF009976A2 /* NoProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119569AE2D2BA2DF009976A2 /* NoProfileTableViewCell.swift */; };
+		11A0E9DE2D2BCF5E00B3EBE3 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0E9DD2D2BCF5E00B3EBE3 /* UIColor+.swift */; };
 		11BD1EA32D27AF1A00352CDD /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 11BD1EA22D27AF1A00352CDD /* IQKeyboardManagerSwift */; };
 		11BD1EA62D27B07600352CDD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 11BD1EA52D27B07600352CDD /* Kingfisher */; };
 /* End PBXBuildFile section */
@@ -54,6 +57,9 @@
 		1171DAF22D27C392009296F6 /* User.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
 		1171DAF42D27C75F009296F6 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		1171DAF62D27D1B5009296F6 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		119569AE2D2BA2DF009976A2 /* NoProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoProfileTableViewCell.swift; sourceTree = "<group>"; };
+		119569AF2D2BA2DF009976A2 /* NoProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoProfileTableViewCell.xib; sourceTree = "<group>"; };
+		11A0E9DD2D2BCF5E00B3EBE3 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,7 @@
 			children = (
 				1159BA552D268299004DF944 /* UILable+.swift */,
 				1159BA532D26813D004DF944 /* UIViewController+.swift */,
+				11A0E9DD2D2BCF5E00B3EBE3 /* UIColor+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -114,6 +121,7 @@
 				11070C422D2373180092B920 /* 1231 */,
 				11E502F72D2649640044221B /* 0102 */,
 				1171DAEF2D27C2B1009296F6 /* 0103 */,
+				119569B22D2BA2E3009976A2 /* 0106 */,
 				11713AC42D2257A9003186FE /* AppDelegate.swift */,
 				11713AC62D2257A9003186FE /* SceneDelegate.swift */,
 				11713AC82D2257A9003186FE /* ViewController.swift */,
@@ -134,6 +142,15 @@
 				1171DAF42D27C75F009296F6 /* UserTableViewCell.swift */,
 			);
 			path = 0103;
+			sourceTree = "<group>";
+		};
+		119569B22D2BA2E3009976A2 /* 0106 */ = {
+			isa = PBXGroup;
+			children = (
+				119569AF2D2BA2DF009976A2 /* NoProfileTableViewCell.xib */,
+				119569AE2D2BA2DF009976A2 /* NoProfileTableViewCell.swift */,
+			);
+			path = 0106;
 			sourceTree = "<group>";
 		};
 		11BD1EA72D27B7D100352CDD /* 1230 */ = {
@@ -223,6 +240,7 @@
 				1171DAF32D27C392009296F6 /* User.storyboard in Resources */,
 				11070C462D2373370092B920 /* Practice.storyboard in Resources */,
 				11713AD12D2257AA003186FE /* Base in Resources */,
+				119569B02D2BA2DF009976A2 /* NoProfileTableViewCell.xib in Resources */,
 				11713ACC2D2257A9003186FE /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +260,8 @@
 				11070C4C2D238DEE0092B920 /* ShowViewController.swift in Sources */,
 				11713AD92D22718F003186FE /* NumberViewController.swift in Sources */,
 				11713AC52D2257A9003186FE /* AppDelegate.swift in Sources */,
+				11A0E9DE2D2BCF5E00B3EBE3 /* UIColor+.swift in Sources */,
+				119569B12D2BA2DF009976A2 /* NoProfileTableViewCell.swift in Sources */,
 				1159BA562D2682A2004DF944 /* UILable+.swift in Sources */,
 				11070C482D2389340092B920 /* PracticeViewController.swift in Sources */,
 				11070C4A2D2389420092B920 /* ModalViewController.swift in Sources */,
