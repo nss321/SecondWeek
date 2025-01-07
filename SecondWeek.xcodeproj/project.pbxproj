@@ -19,6 +19,7 @@
 		116FDF592D2CAA8E008FDB88 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FDF582D2CAA8E008FDB88 /* YellowViewController.swift */; };
 		116FDF5B2D2CAA9C008FDB88 /* IndigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FDF5A2D2CAA9C008FDB88 /* IndigoViewController.swift */; };
 		116FDF5D2D2CC621008FDB88 /* TenStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116FDF5C2D2CC621008FDB88 /* TenStoryboard.storyboard */; };
+		116FDF5F2D2CC7E0008FDB88 /* TenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FDF5E2D2CC7E0008FDB88 /* TenViewController.swift */; };
 		11713AC52D2257A9003186FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11713AC42D2257A9003186FE /* AppDelegate.swift */; };
 		11713AC72D2257A9003186FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11713AC62D2257A9003186FE /* SceneDelegate.swift */; };
 		11713AC92D2257A9003186FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11713AC82D2257A9003186FE /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		116FDF582D2CAA8E008FDB88 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		116FDF5A2D2CAA9C008FDB88 /* IndigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndigoViewController.swift; sourceTree = "<group>"; };
 		116FDF5C2D2CC621008FDB88 /* TenStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TenStoryboard.storyboard; sourceTree = "<group>"; };
+		116FDF5E2D2CC7E0008FDB88 /* TenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenViewController.swift; sourceTree = "<group>"; };
 		11713AC12D2257A9003186FE /* SecondWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11713AC42D2257A9003186FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11713AC62D2257A9003186FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				116FDF582D2CAA8E008FDB88 /* YellowViewController.swift */,
 				116FDF5A2D2CAA9C008FDB88 /* IndigoViewController.swift */,
 				116FDF5C2D2CC621008FDB88 /* TenStoryboard.storyboard */,
+				116FDF5E2D2CC7E0008FDB88 /* TenViewController.swift */,
 			);
 			path = 0107;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				11A0E9DE2D2BCF5E00B3EBE3 /* UIColor+.swift in Sources */,
 				119569B12D2BA2DF009976A2 /* NoProfileTableViewCell.swift in Sources */,
 				1159BA562D2682A2004DF944 /* UILable+.swift in Sources */,
+				116FDF5F2D2CC7E0008FDB88 /* TenViewController.swift in Sources */,
 				11070C482D2389340092B920 /* PracticeViewController.swift in Sources */,
 				11070C4A2D2389420092B920 /* ModalViewController.swift in Sources */,
 				1159BA4E2D26546F004DF944 /* BasicTableViewController.swift in Sources */,
